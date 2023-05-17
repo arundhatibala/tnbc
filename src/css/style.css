@@ -1,0 +1,18 @@
+.nav {
+    background-color: #F3752B;
+}
+
+html, body {
+    height: 100%;
+    background-color: #EDEDF4;
+}
+
+
+.col-4{
+    width: 33.33%;
+}
+
+.container2 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
