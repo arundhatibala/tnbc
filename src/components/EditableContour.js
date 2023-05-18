@@ -47,7 +47,8 @@ const EditableContour = () => {
 //   var height = img.clientHeight;
   
   return (
-   
+
+    <svg width="286" height="231">    
       {dataArray.map((coord, index) => {
         const points = coord.split(' ');
         return (
@@ -60,6 +61,7 @@ const EditableContour = () => {
           />
         );
       })}
+    </svg>
   )
 };
 
