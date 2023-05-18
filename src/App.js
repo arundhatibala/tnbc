@@ -17,8 +17,8 @@ function App() {
           <div className="col-4">
           <img className = "bw" src={downsample} alt="placeholder" />
           </div>
-          <div className="col-4">
-          <img src={downsample} alt="placeholder" />
+          <div className="col-4  img-overlay-wrap">
+          <img id = "imageid" src={downsample} alt="placeholder" />
           <EditableContour />
           </div>
         </div>
