@@ -4,7 +4,7 @@
 
 html, body {
     height: 100%;
-    background-color: #232323;
+    /* background-color: #232323; */
 }
 
 
@@ -20,3 +20,8 @@ html, body {
 img {
     width: 100%;
 }
+
+img.bw {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+  }

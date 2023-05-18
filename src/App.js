@@ -1,7 +1,8 @@
 // import logo from './logo.svg';
 import Header from './components/Header';
 import downsample from './media/downsample.jpg';
-import bw from './media/downsample_bw.jpeg';
+// import bw from './media/downsample_bw.jpeg';
+import EditableContour from './components/EditableContour';
 import './App.css';
 
 function App() {
@@ -14,10 +15,11 @@ function App() {
             <img src={downsample} alt="placeholder" />
           </div>
           <div className="col-4">
-          <img src={bw} alt="placeholder" />
+          <img className = "bw" src={downsample} alt="placeholder" />
           </div>
           <div className="col-4">
-          <img src={bw} alt="placeholder" />
+          <img src={downsample} alt="placeholder" />
+          <EditableContour />
           </div>
         </div>
       </div>
